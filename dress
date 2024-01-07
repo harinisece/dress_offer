@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Pongal Dress Offer</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffa500;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        section {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #666;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .login-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffa500;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Login - Pongal Dress Offer</h1>
+    </header>
+
+    <section>
+        <form action="process-login.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Login" class="login-button">
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2024 Your Company Name. All rights reserved.
+    </footer>
+
+</body>
+</html>
